@@ -1,0 +1,56 @@
+
+Title:
+------
+
+        Bag of Words Data Set (KOS blog entries)
+
+Taken FRom:
+--------------
+
+	http://archive.ics.uci.edu/ml/machine-learning-databases/bag-of-words/
+
+
+About File
+---------------
+
+
+Matrix size of file= 3430 x 6907    (No. of documents x No. of terms)
+First Columen represent Document No.
+Remaining Columns represent fetaure values in term of term-count
+During fetching data exclude first row and first column
+Does not include Actual labels
+
+
+Data Set Description
+-------------------------------
+
+Data Set Characteristics: Text
+Attribute Characteristics: Integer
+Date Donated: 2008-03-12
+Associated Tasks: Clustering
+Missing Values? N/A
+
+-----------------------------------------------------		
+
+Source:
+
+David Newman
+newman '@' uci.edu
+University of California, Irvine
+Data Set Information:
+----------------------
+
+
+For each text collection we provide docword.*.txt (the bag of words file in sparse format) and vocab.*.txt (the vocab file).
+
+
+KOS blog entries:
+--------------------
+
+orig source: dailykos.com
+D=3430
+W=6906
+N=467714
+
+
+The format of the vocab.*.txt file is line contains wordID=n.

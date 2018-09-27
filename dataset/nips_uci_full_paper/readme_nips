@@ -1,0 +1,48 @@
+
+Title:
+------
+
+        Bag of Words Data Set (NIPS full papers)
+
+Taken FRom:
+--------------
+
+	http://archive.ics.uci.edu/ml/machine-learning-databases/bag-of-words/
+
+
+About File
+---------------
+
+
+Matrix size of file= 1500 x 12420     (No. of documents x No. of terms)
+First Columen represent Document No.
+Remaining Columns represent fetaure values in term of term-count
+During fetching data exclude first row and first column
+Does not include Actual labels
+
+
+Data Set Description
+-------------------------------
+
+Data Set Characteristics: Text
+Attribute Characteristics: Integer
+Date Donated: 2008-03-12
+Associated Tasks: Clustering
+Missing Values? N/A
+
+-----------------------------------------------------		
+
+Source:
+
+David Newman
+newman '@' uci.edu
+University of California, Irvine
+Data Set Information:
+----------------------
+
+
+
+The format of the vocab.*.txt file is line contains wordID=n.
+
+
+
