@@ -20,8 +20,8 @@ file1 = open('Output_without_SOM1_new/nips_uci_full_paper/run1/nips_uci_full_pap
 data = genfromtxt('dataset/nips_uci_full_paper/uci_nips_count_matrix.txt', skip_header=1, usecols=range(1, 1501))
 # actual_label = genfromtxt('dataset/BBC_Sport_termcount_Normal/actual_bbc_sport_actual_label.txt', skip_header=1, usecols=(1))
 # data = apply_along_axis(lambda x: x/linalg.norm(x),1,data) # data normalization
-chromosome = int(input("Enter the number of chromosomes: "))  # Input the population size
-max_gen = int(input("Enter the maximum number of generation: "))  # Input the maximum number of generation
+chromosome = 40  # Input the population size
+max_gen = 70  # Input the maximum number of generation
 max_cluster = math.floor(math.sqrt(len(data)))  ##Maximum cluster equals root(population)
 features = len(data[0])  ##Features of the input data
 max_cluster_feat = max_cluster * features  ##Maximum cluster features possible
